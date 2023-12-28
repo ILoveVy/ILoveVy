@@ -82,6 +82,10 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
+	@media print {
+		h2 {page-break-after: always;}
+	  }
+
 	@media screen and (max-width: 480px) {
 
 		html, body {
